@@ -7,11 +7,11 @@ import LanguageIcon from "@mui/icons-material/Language";
 
 const FooterMiddle = () => {
   return (
-    <div className="w-full text-white bg-amazon_light">
+    <div className="w-full text-white bg-amazon_light p-4">
       {/* ============ Top Start here ================== */}
-      <div className="w-full border-b-[1px] border-gray-500 py-10">
+      <div className="w-full border-b-[1px] border-gray-500">
         <div className="max-w-5xl mx-auto text-gray-300">
-          <div className="grid items-start w-full grid-cols-4 place-items-center">
+          <div className="grid  items-start w-full grid-cols-4 place-items-center">
             {middleList.map((item) => (
               <FooterMiddleList
                 key={item._id}
